@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programa de Pontos | Farmácia Itajá</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Ganhe pontos em todas as suas compras</h1>
+    <p>1 real = 1 ponto. Simples assim.</p>
+    <button class="btn" onclick="scrollToForm()">Quero participar</button>
+    <div class="location">📍 Itajá - GO</div>
+  </div>
+</header>
+
+<section class="fade">
+  <h2>Por que participar?</h2>
+
+  <div class="benefits">
+    <div class="card">💰 Acumule pontos</div>
+    <div class="card">🎁 Troque por produtos</div>
+    <div class="card">⚡ Automático</div>
+    <div class="card">📈 Mais compras = mais ganhos</div>
+  </div>
+</section>
+
+<section class="fade image-section">
+  <img src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2">
+  <div>
+    <h2>Economize cuidando da sua saúde</h2>
+    <p>Compre e ganhe pontos para trocar por novos produtos.</p>
+  </div>
+</section>
+
+<section class="fade">
+  <h2>Como funciona</h2>
+  <ul class="steps">
+    <li>1. Cadastre-se</li>
+    <li>2. Compre</li>
+    <li>3. Ganhe pontos</li>
+    <li>4. Troque</li>
+  </ul>
+</section>
+
+<section id="formSection" class="fade">
+  <h2>Cadastre-se</h2>
+
+  <div class="form-box">
+    <input type="text" id="name" placeholder="Seu nome">
+    <input type="email" id="email" placeholder="Seu email">
+    <button class="btn" onclick="register()">Cadastrar</button>
+    <p id="msg"></p>
+  </div>
+</section>
+
+<section class="cta fade">
+  <h2>Comece hoje 🚀</h2>
+  <button class="btn" onclick="scrollToForm()">Criar conta</button>
+</section>
+
+<footer>
+  <p>© 2026 Farmácia Itajá - GO</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
